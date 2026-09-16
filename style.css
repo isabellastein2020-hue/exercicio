@@ -9,8 +9,9 @@ box-sizing:   border-box;
   height: 500px;
   border: 1px solid #333;
   margin: 0 auto;
+  position: relative;
 }
 
 .pipe {
- po
+ position: absolute;
 }
