@@ -10,8 +10,23 @@ box-sizing:   border-box;
   border: 1px solid #333;
   margin: 0 auto;
   position: relative;
+  overflow: hidden;
 }
 
 .pipe {
  position: absolute;
+  botton: 0;
+  width: 80px;
+ 
+  /*animation: pipe-animation 2s infinite linear;*/
+}
+
+@keyframes pipe-animation {
+  from {
+    right: -80px;
+  }
+
+to {
+    right: 100%;
+  }
 }
