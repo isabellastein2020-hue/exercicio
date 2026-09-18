@@ -12,4 +12,6 @@ mario.classList.remove('jump');
 }
 
 
+const loop = setInterval ()
+
 document. addEventListener( 'keydown', jump);
