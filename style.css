@@ -18,7 +18,13 @@ box-sizing:   border-box;
   botton: 0;
   width: 80px;
  
-  /*animation: pipe-animation 2s infinite linear;*/
+  animation: pipe-animation 2s infinite linear;
+}
+
+.mario {
+  width: 150px;
+  position: absolute;
+  bottom: 0;
 }
 
 @keyframes pipe-animation {
@@ -29,4 +35,12 @@ box-sizing:   border-box;
 to {
     right: 100%;
   }
+}
+
+inicio
+
+::-moz-selection
+
+@keyframes jump {
+  
 }
